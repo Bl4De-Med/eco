@@ -1,0 +1,10 @@
+{
+  "name": "eco-gaming-electronics",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client"
+  },
+  "devDependencies": { "concurrently": "^9.0.1" }
+}

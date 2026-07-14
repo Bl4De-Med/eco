@@ -1,0 +1,1 @@
+export default { content:['./index.html','./src/**/*.{js,jsx}'], theme:{ extend:{ colors:{ ink:'#eef2f6', panel:'#ffffff', neon:'#056b7a', pulse:'#1e3a5f' }, boxShadow:{ neon:'0 14px 34px rgb(5 107 122 / .14)' } } }, plugins:[] };
