@@ -42,8 +42,8 @@ const peripheralCollections={
 
 const productOptions = {
   1: {
-    RAM: ['32GB DDR5-6000 CL30', '64GB DDR5-6000 CL30 (+$150)'],
-    Storage: ['2TB NVMe Gen4 SSD', '4TB NVMe Gen4 SSD (+$100)']
+    RAM: ['32GB DDR5-6000 CL30', '64GB DDR5-6000 CL30 (+150 Dhs)'],
+    Storage: ['2TB NVMe Gen4 SSD', '4TB NVMe Gen4 SSD (+100 Dhs)']
   },
   2: {
     'Switch Feel': ['Magnetic', 'Linear', 'Tactile']
@@ -52,23 +52,23 @@ const productOptions = {
     Color: ['Carbon Black', 'Chalk White']
   },
   5: {
-    Edition: ['Standard Edition', 'Overclocked Edition (+$50)']
+    Edition: ['Standard Edition', 'Overclocked Edition (+50 Dhs)']
   },
   7: {
-    'Grip Style': ['Matte Textured', 'Grip Tape Bundle (+$10)']
+    'Grip Style': ['Matte Textured', 'Grip Tape Bundle (+10 Dhs)']
   },
   8: {
-    Storage: ['128GB', '256GB (+$100)']
+    Storage: ['128GB', '256GB (+100 Dhs)']
   },
   9: {
-    RAM: ['16GB DDR5', '32GB DDR5 (+$80)'],
-    Storage: ['1TB NVMe SSD', '2TB NVMe SSD (+$60)']
+    RAM: ['16GB DDR5', '32GB DDR5 (+80 Dhs)'],
+    Storage: ['1TB NVMe SSD', '2TB NVMe SSD (+60 Dhs)']
   },
   10: {
     'Switch Type': ['Linear Red', 'Tactile Brown', 'Clicky Blue']
   },
   11: {
-    Speed: ['6000 MT/s CL30', '6400 MT/s CL32 (+$30)']
+    Speed: ['6000 MT/s CL30', '6400 MT/s CL32 (+30 Dhs)']
   },
   13: {
     'Ear Cushions': ['Cooling Gel-infused', 'Premium Protein Leather']
@@ -77,13 +77,13 @@ const productOptions = {
     Color: ['White (Original)', 'Black Matte']
   },
   16: {
-    'Radiator Size': ['360mm Triple Fan', '240mm Dual Fan (-$20)']
+    'Radiator Size': ['360mm Triple Fan', '240mm Dual Fan (-20 Dhs)']
   },
   17: {
-    Design: ['Classic Stealth Black', 'Neon Cyberpunk (+$5)']
+    Design: ['Classic Stealth Black', 'Neon Cyberpunk (+5 Dhs)']
   },
   18: {
-    'Cooling Option': ['With Active Heatsink', 'Without Heatsink (-$20)']
+    'Cooling Option': ['With Active Heatsink', 'Without Heatsink (-20 Dhs)']
   }
 };
 
@@ -251,7 +251,7 @@ const productSpecs = {
   ]
 };
 
-const CartContext=createContext(); const useCart=()=>useContext(CartContext); const money=n=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(n);
+const CartContext=createContext(); const useCart=()=>useContext(CartContext); const money=n=>new Intl.NumberFormat('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}).format(n) + ' Dhs';
 function Layout({children}){const {items}=useCart(); return <><header className="sticky top-0 z-20 border-b border-slate-200 bg-white/95 shadow-sm backdrop-blur"><nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4"><Link className="text-xl font-black tracking-[.2em] text-slate-900" to="/">ECO<span className="text-neon">//</span></Link><div className="hidden gap-6 text-sm font-semibold text-slate-700 md:flex"><a href="/#trending">Trending</a><a href="/#categories">Categories</a></div><Link to="/cart" className="rounded-full border border-neon/40 px-4 py-2 text-sm font-semibold text-neon">Cart ({items.reduce((n,i)=>n+i.quantity,0)})</Link></nav></header>{children}</>}
 function Stars({rating}){return <span className="text-amber-300">{'★'.repeat(Math.round(rating))}<span className="text-slate-700">{'★'.repeat(5-Math.round(rating))}</span></span>}
 function Card({product}){return <Link to={`/products/${product.slug}`} className="group card overflow-hidden"><img className="h-56 w-full object-cover transition duration-500 group-hover:scale-105" src={product.image_url} alt={product.name}/><div className="p-5"><p className="text-xs font-bold uppercase tracking-widest text-neon">{product.category}</p><h3 className="mt-2 text-lg font-bold">{product.name}</h3><div className="mt-3 flex items-center justify-between"><span><b>{money(product.discount_price||product.price)}</b>{product.discount_price&&<del className="ml-2 text-sm text-slate-500">{money(product.price)}</del>}</span><Stars rating={product.average_rating}/></div></div></Link>}
