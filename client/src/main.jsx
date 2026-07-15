@@ -3,29 +3,35 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Routes, Route, Link, useNavigate, useParams } from 'react-router-dom';
 import './styles.css';
 import forge850GoldImg from './forge-850-gold.jpg';
+import aegisApexPcImg from './aegis-apex-pc.png';
+import titanGpuImg from './titan-gpu.png';
+import aegisVectorPcImg from './aegis-vector-pc.png';
+import glacierCoolerImg from './glacier-cooler.png';
+import vertexMousepadImg from './vertex-mousepad.png';
+import vectorSsdImg from './vector-ssd.png';
 
 const API=import.meta.env.VITE_API_URL || 'http://localhost:4000/api';
 const products=[
- {id:1,slug:'aegis-apex-v1',name:'Aegis Apex v1',category:'Pre-built PCs',price:3199.99,discount_price:2999.99,stock:12,average_rating:4.8,image_url:'https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=1200&q=85'},
+ {id:1,slug:'aegis-apex-v1',name:'Aegis Apex v1',category:'Pre-built PCs',price:3199.99,discount_price:2999.99,stock:12,average_rating:4.8,image_url:aegisApexPcImg},
  {id:2,slug:'vortex-rapidfire',name:'Vortex RapidFire',category:'Peripherals',price:229.99,discount_price:199.99,stock:40,average_rating:4.5,image_url:'https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=1200&q=85'},
  {id:3,slug:'horizon-360hz',name:'Horizon 360Hz',category:'Monitors',price:699.99,discount_price:649.99,stock:25,average_rating:5,image_url:'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=1200&q=85'},
  {id:4,slug:'nova-strike-rgb',name:'Nova Strike RGB',category:'Peripherals',price:89.99,discount_price:74.99,stock:65,average_rating:4.7,image_url:'https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=1200&q=85'},
- {id:5,slug:'titan-4070-ti',name:'Titan RTX 4070 Ti',category:'Components',price:849.99,discount_price:799.99,stock:18,average_rating:4.6,image_url:'https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=1200&q=85'},
+ {id:5,slug:'titan-4070-ti',name:'Titan RTX 4070 Ti',category:'Components',price:849.99,discount_price:799.99,stock:18,average_rating:4.6,image_url:titanGpuImg},
  {id:6,slug:'spectra-240hz',name:'Spectra 240Hz',category:'Monitors',price:429.99,discount_price:389.99,stock:32,average_rating:4.8,image_url:'https://images.unsplash.com/photo-1547394765-185e1e68f34e?auto=format&fit=crop&w=1200&q=85'},
  {id:7,slug:'phantom-pro-wireless',name:'Phantom Pro Wireless',category:'Peripherals',price:149.99,discount_price:null,stock:51,average_rating:4.7,image_url:'https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=1200&q=85'},
  {id:8,slug:'rift-xr-elite',name:'Rift XR Elite',category:'VR Headsets',price:549.99,discount_price:499.99,stock:21,average_rating:4.6,image_url:'https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&w=1200&q=85'},
- {id:9,slug:'aegis-vector-s',name:'Aegis Vector S',category:'Pre-built PCs',price:1899.99,discount_price:1749.99,stock:9,average_rating:4.9,image_url:'https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=1200&q=85'},
+ {id:9,slug:'aegis-vector-s',name:'Aegis Vector S',category:'Pre-built PCs',price:1899.99,discount_price:1749.99,stock:9,average_rating:4.9,image_url:aegisVectorPcImg},
  {id:10,slug:'pulsefire-65',name:'PulseFire 65',category:'Peripherals',price:139.99,discount_price:119.99,stock:47,average_rating:4.5,image_url:'https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?auto=format&fit=crop&w=1200&q=85'},
  {id:11,slug:'core-ddr5-32',name:'Core DDR5 32GB',category:'Components',price:129.99,discount_price:null,stock:70,average_rating:4.8,image_url:'https://images.unsplash.com/photo-1562976540-1502c2145186?auto=format&fit=crop&w=1200&q=85'},
  {id:12,slug:'nebula-4k',name:'Nebula 4K OLED',category:'Monitors',price:999.99,discount_price:899.99,stock:14,average_rating:4.9,image_url:'https://images.unsplash.com/photo-1551645120-d70bfe84c826?auto=format&fit=crop&w=1200&q=85'},
  {id:13,slug:'sonic-orbit',name:'Sonic Orbit Wireless',category:'Audio',price:179.99,discount_price:149.99,stock:36,average_rating:4.7,image_url:'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1200&q=85'},
  {id:14,slug:'forge-850-gold',name:'Forge 850 Gold',category:'Components',price:159.99,discount_price:139.99,stock:28,average_rating:4.6,image_url:forge850GoldImg},
  {id:15,slug:'altitude-airflow',name:'Altitude Airflow',category:'Accessories',price:119.99,discount_price:null,stock:33,average_rating:4.5,image_url:'https://images.unsplash.com/photo-1587202372583-49330a15584d?auto=format&fit=crop&w=1200&q=85'},
- {id:16,slug:'glacier-mk2',name:'Glacier MK2',category:'Cooling',price:109.99,discount_price:94.99,stock:46,average_rating:4.6,image_url:'https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1200&q=85'},
- {id:17,slug:'vertex-control-xl',name:'Vertex Control XL',category:'Accessories',price:44.99,discount_price:null,stock:83,average_rating:4.7,image_url:'https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=85'},
- {id:18,slug:'vector-2tb-gen5',name:'Vector 2TB Gen5',category:'Components',price:219.99,discount_price:189.99,stock:39,average_rating:4.8,image_url:'https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=1200&q=85'},
- {id:19,slug:'summit-duo-arm',name:'Summit Duo Arm',category:'Accessories',price:129.99,discount_price:109.99,stock:22,average_rating:4.5,image_url:'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1200&q=85'},
- {id:20,slug:'arc-lightbar',name:'Arc Lightbar',category:'Accessories',price:69.99,discount_price:59.99,stock:58,average_rating:4.6,image_url:'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=1200&q=85'}
+ {id:16,slug:'glacier-mk2',name:'Glacier MK2',category:'Cooling',price:109.99,discount_price:94.99,stock:46,average_rating:4.6,image_url:glacierCoolerImg},
+ {id:17,slug:'vertex-control-xl',name:'Vertex Control XL',category:'Accessories',price:44.99,discount_price:null,stock:83,average_rating:4.7,image_url:vertexMousepadImg},
+ {id:18,slug:'vector-2tb-gen5',name:'Vector 2TB Gen5',category:'Components',price:219.99,discount_price:189.99,stock:39,average_rating:4.8,image_url:vectorSsdImg},
+ {id:19,slug:'summit-duo-arm',name:'Summit Duo Arm',category:'Accessories',price:129.99,discount_price:109.99,stock:22,average_rating:4.5,image_url:'https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&w=1200&q=85'},
+ {id:20,slug:'arc-lightbar',name:'Arc Lightbar',category:'Accessories',price:69.99,discount_price:59.99,stock:58,average_rating:4.6,image_url:'https://images.unsplash.com/photo-1616440347437-b1c73416efc2?auto=format&fit=crop&w=1200&q=85'}
 ];
 const peripheralCollections={
  keyboards:{title:'Gaming Keyboards',subtitle:'Precision switches, responsive inputs, and premium builds for every playstyle.',match:p=>/Vortex|PulseFire/.test(p.name)},
