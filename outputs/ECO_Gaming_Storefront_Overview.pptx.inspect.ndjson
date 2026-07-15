@@ -1,0 +1,137 @@
+{"kind":"deck","id":"pr/81uou8","name":"Deck"}
+{"kind":"layout","layoutId":"0dcf9206-74fe-40c2-9445-3b5be7fe6d59","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"e6a5ec02-6acd-4c23-87d5-48015cb5df6c","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/icdpeq","slide":1,"title":"ECO//","textShapes":5}
+{"kind":"textbox","id":"sh/4j614r2h","slide":1,"text":"ECO//","textPreview":"ECO//","textChars":5,"textLines":1,"bbox":[70,64,300,44]}
+{"kind":"textbox","id":"sh/3ix0bm1w","slide":1,"text":"Gaming electronics\nstorefront","textPreview":"Gaming electronics | storefront","textChars":29,"textLines":2,"bbox":[70,178,700,138]}
+{"kind":"textbox","id":"sh/2hoj2hkb","slide":1,"text":"A modern React commerce experience for competitive players, premium hardware, and clean checkout journeys.","textPreview":"A modern React commerce experience for competitive players, premium hardware, and clean checkout journeys.","textChars":106,"textLines":1,"bbox":[74,340,590,82]}
+{"kind":"shape","id":"sh/dof2hwjy","slide":1,"bbox":[842,126,284,372]}
+{"kind":"shape","id":"sh/cn618b2d","slide":1,"bbox":[884,170,200,200]}
+{"kind":"shape","id":"sh/rmx0f618","slide":1,"bbox":[914,202,140,136]}
+{"kind":"textbox","id":"sh/qloj61kn","slide":1,"text":"PLAY\nWITHOUT\nLIMITS","textPreview":"PLAY | WITHOUT | LIMITS","textChars":19,"textLines":3,"bbox":[912,220,148,92]}
+{"kind":"textbox","id":"sh/1cz2lgja","slide":1,"text":"PROJECT OVERVIEW · 2026","textPreview":"PROJECT OVERVIEW · 2026","textChars":23,"textLines":1,"bbox":[72,630,330,18]}
+{"kind":"notes","id":"nt/icdpeq","slide":1,"text":""}
+{"kind":"slide","id":"sl/oef443","slide":2,"title":"ECO · GAMING ELECTRONICS","textShapes":14}
+{"kind":"textbox","id":"sh/3yl032t8","slide":2,"text":"ECO · GAMING ELECTRONICS","textPreview":"ECO · GAMING ELECTRONICS","textChars":24,"textLines":1,"bbox":[68,36,420,20]}
+{"kind":"shape","id":"sh/4zuhwnut","slide":2,"bbox":[68,62,1144,1]}
+{"kind":"textbox","id":"sh/p03i5sbe","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1166,654,46,20]}
+{"kind":"textbox","id":"sh/utszqdcr","slide":2,"text":"THE EXPERIENCE","textPreview":"THE EXPERIENCE","textChars":14,"textLines":1,"bbox":[68,102,460,20]}
+{"kind":"textbox","id":"sh/fu10zidc","slide":2,"text":"A storefront built around the gaming buyer","textPreview":"A storefront built around the gaming buyer","textChars":42,"textLines":1,"bbox":[68,140,820,96]}
+{"kind":"textbox","id":"sh/gvuhsnuh","slide":2,"text":"The site combines a focused visual identity with fast paths into the categories that matter most.","textPreview":"The site combines a focused visual identity with fast paths into the categories that matter most.","textChars":97,"textLines":1,"bbox":[68,250,720,62]}
+{"kind":"shape","id":"sh/hw3i1sv2","slide":2,"bbox":[68,340,1144,234]}
+{"kind":"textbox","id":"sh/65szmdcf","slide":2,"text":"20","textPreview":"20","textChars":2,"textLines":1,"bbox":[114,385,190,44]}
+{"kind":"textbox","id":"sh/761gvid0","slide":2,"text":"catalog products","textPreview":"catalog products","textChars":16,"textLines":1,"bbox":[114,433,190,42]}
+{"kind":"shape","id":"sh/jylkbux8","slide":2,"bbox":[344,385,1,120]}
+{"kind":"textbox","id":"sh/ixcjipgn","slide":2,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[388,385,190,44]}
+{"kind":"textbox","id":"sh/5032d4fy","slide":2,"text":"peripheral collections","textPreview":"peripheral collections","textChars":22,"textLines":1,"bbox":[388,433,190,42]}
+{"kind":"shape","id":"sh/kzu1kzyd","slide":2,"bbox":[618,385,1,120]}
+{"kind":"textbox","id":"sh/72lkfex4","slide":2,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[662,385,190,44]}
+{"kind":"textbox","id":"sh/61cjm9gj","slide":2,"text":"core shopping steps","textPreview":"core shopping steps","textChars":19,"textLines":1,"bbox":[662,433,190,42]}
+{"kind":"shape","id":"sh/ton2h4fa","slide":2,"bbox":[892,385,1,120]}
+{"kind":"textbox","id":"sh/s3u1ozyp","slide":2,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[936,385,190,44]}
+{"kind":"textbox","id":"sh/n610jax0","slide":2,"text":"responsive storefront","textPreview":"responsive storefront","textChars":21,"textLines":1,"bbox":[936,433,190,42]}
+{"kind":"textbox","id":"sh/m5sja5gf","slide":2,"text":"Product discovery is intentionally simple: browse a collection, inspect details, then add the right configuration to cart.","textPreview":"Product discovery is intentionally simple: browse a collection, inspect details, then add the right configuration to cart.","textChars":122,"textLines":1,"bbox":[72,610,950,28]}
+{"kind":"notes","id":"nt/oef443","slide":2,"text":""}
+{"kind":"slide","id":"sl/i35lhd","slide":3,"title":"ECO · GAMING ELECTRONICS","textShapes":14}
+{"kind":"textbox","id":"sh/t4zmpg36","slide":3,"text":"ECO · GAMING ELECTRONICS","textPreview":"ECO · GAMING ELECTRONICS","textChars":24,"textLines":1,"bbox":[68,36,420,20]}
+{"kind":"shape","id":"sh/61onul4v","slide":3,"bbox":[68,62,1144,1]}
+{"kind":"textbox","id":"sh/r2h4nqlg","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1166,654,46,20]}
+{"kind":"textbox","id":"sh/g7q50v2x","slide":3,"text":"SHOPPING JOURNEY","textPreview":"SHOPPING JOURNEY","textChars":16,"textLines":1,"bbox":[68,102,460,20]}
+{"kind":"textbox","id":"sh/18z6t03i","slide":3,"text":"Every route removes friction before checkout","textPreview":"Every route removes friction before checkout","textChars":44,"textLines":1,"bbox":[68,140,820,96]}
+{"kind":"textbox","id":"sh/e58nylkr","slide":3,"text":"Navigation works from product pages as well as the home page, keeping customers close to the catalog.","textPreview":"Navigation works from product pages as well as the home page, keeping customers close to the catalog.","textChars":101,"textLines":1,"bbox":[68,250,720,62]}
+{"kind":"shape","id":"sh/f6horqlc","slide":3,"bbox":[68,350,340,188]}
+{"kind":"textbox","id":"sh/oba54f2t","slide":3,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[92,374,90,28]}
+{"kind":"textbox","id":"sh/pwj6x03e","slide":3,"text":"Discover","textPreview":"Discover","textChars":8,"textLines":1,"bbox":[92,414,280,30]}
+{"kind":"textbox","id":"sh/tsvqh0f6","slide":3,"text":"Trending gear, categories, and a deep product grid.","textPreview":"Trending gear, categories, and a deep product grid.","textChars":51,"textLines":1,"bbox":[92,458,280,48]}
+{"kind":"shape","id":"sh/srm9ofyl","slide":3,"bbox":[408,441,44,2]}
+{"kind":"shape","id":"sh/rqd8fax0","slide":3,"bbox":[452,350,340,188]}
+{"kind":"textbox","id":"sh/6p4rm5gf","slide":3,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[476,374,90,28]}
+{"kind":"textbox","id":"sh/1gfalkf2","slide":3,"text":"Configure","textPreview":"Configure","textChars":9,"textLines":1,"bbox":[476,414,280,30]}
+{"kind":"textbox","id":"sh/gf69cfyx","slide":3,"text":"Product pages expose specs and available upgrade options.","textPreview":"Product pages expose specs and available upgrade options.","textChars":57,"textLines":1,"bbox":[476,458,280,48]}
+{"kind":"shape","id":"sh/fex8jaxc","slide":3,"bbox":[792,441,44,2]}
+{"kind":"shape","id":"sh/ed4rq5gr","slide":3,"bbox":[836,350,340,188]}
+{"kind":"textbox","id":"sh/xkbq9gfy","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[860,374,90,28]}
+{"kind":"textbox","id":"sh/wj29gvyd","slide":3,"text":"Checkout","textPreview":"Checkout","textChars":8,"textLines":1,"bbox":[860,414,280,30]}
+{"kind":"textbox","id":"sh/8fqhcfal","slide":3,"text":"A focused payment panel ends with a clear confirmation.","textPreview":"A focused payment panel ends with a clear confirmation.","textChars":55,"textLines":1,"bbox":[860,458,280,48]}
+{"kind":"notes","id":"nt/i35lhd","slide":3,"text":""}
+{"kind":"slide","id":"sl/i901zw","slide":4,"title":"ECO · GAMING ELECTRONICS","textShapes":13}
+{"kind":"textbox","id":"sh/47e5s325","slide":4,"text":"ECO · GAMING ELECTRONICS","textPreview":"ECO · GAMING ELECTRONICS","textChars":24,"textLines":1,"bbox":[68,36,420,20]}
+{"kind":"shape","id":"sh/365ojy1k","slide":4,"bbox":[68,62,1144,1]}
+{"kind":"textbox","id":"sh/i5wnqtkz","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1166,654,46,20]}
+{"kind":"textbox","id":"sh/h4n6hoju","slide":4,"text":"PRODUCT SYSTEM","textPreview":"PRODUCT SYSTEM","textChars":14,"textLines":1,"bbox":[68,102,460,20]}
+{"kind":"textbox","id":"sh/g3u5o329","slide":4,"text":"One catalog supports diverse gaming hardware","textPreview":"One catalog supports diverse gaming hardware","textChars":44,"textLines":1,"bbox":[68,140,820,96]}
+{"kind":"textbox","id":"sh/v2lofy1o","slide":4,"text":"The model handles custom PCs, performance peripherals, high-refresh displays, VR, and supporting components.","textPreview":"The model handles custom PCs, performance peripherals, high-refresh displays, VR, and supporting components.","textChars":108,"textLines":1,"bbox":[68,250,720,62]}
+{"kind":"shape","id":"sh/u1cnmtk3","slide":4,"bbox":[68,340,540,80]}
+{"kind":"shape","id":"sh/t036doji","slide":4,"bbox":[86,358,44,44]}
+{"kind":"textbox","id":"sh/8zu5kj2x","slide":4,"text":"Pre-built PCs","textPreview":"Pre-built PCs","textChars":13,"textLines":1,"bbox":[150,359,220,25]}
+{"kind":"textbox","id":"sh/yhcr2p0r","slide":4,"text":"Flagship systems","textPreview":"Flagship systems","textChars":16,"textLines":1,"bbox":[150,386,300,18]}
+{"kind":"shape","id":"sh/ji58bu1c","slide":4,"bbox":[638,340,540,80]}
+{"kind":"shape","id":"sh/kje94zix","slide":4,"bbox":[656,358,44,44]}
+{"kind":"textbox","id":"sh/lknqd4j2","slide":4,"text":"Components","textPreview":"Components","textChars":10,"textLines":1,"bbox":[720,359,220,25]}
+{"kind":"textbox","id":"sh/atc7yp0f","slide":4,"text":"GPUs, storage, power","textPreview":"GPUs, storage, power","textChars":20,"textLines":1,"bbox":[720,386,300,18]}
+{"kind":"shape","id":"sh/bel87u10","slide":4,"bbox":[68,445,540,80]}
+{"kind":"shape","id":"sh/wfup0zil","slide":4,"bbox":[86,463,44,44]}
+{"kind":"textbox","id":"sh/xg3q9kj6","slide":4,"text":"Peripherals","textPreview":"Peripherals","textChars":11,"textLines":1,"bbox":[150,464,220,25]}
+{"kind":"textbox","id":"sh/2ps7u50j","slide":4,"text":"Keyboards and mice","textPreview":"Keyboards and mice","textChars":18,"textLines":1,"bbox":[150,491,300,18]}
+{"kind":"shape","id":"sh/nq183a14","slide":4,"bbox":[638,445,540,80]}
+{"kind":"shape","id":"sh/ruhob6hw","slide":4,"bbox":[656,463,44,44]}
+{"kind":"textbox","id":"sh/qt8n21gb","slide":4,"text":"Monitors & VR","textPreview":"Monitors & VR","textChars":13,"textLines":1,"bbox":[720,464,220,25]}
+{"kind":"textbox","id":"sh/dwz6dgz2","slide":4,"text":"Immersive displays","textPreview":"Immersive displays","textChars":18,"textLines":1,"bbox":[720,491,300,18]}
+{"kind":"notes","id":"nt/i901zw","slide":4,"text":""}
+{"kind":"slide","id":"sl/prtyl1","slide":5,"title":"ECO · GAMING ELECTRONICS","textShapes":12}
+{"kind":"textbox","id":"sh/4v250nqt","slide":5,"text":"ECO · GAMING ELECTRONICS","textPreview":"ECO · GAMING ELECTRONICS","textChars":24,"textLines":1,"bbox":[68,36,420,20]}
+{"kind":"shape","id":"sh/3uto7i98","slide":5,"bbox":[68,62,1144,1]}
+{"kind":"textbox","id":"sh/itknyd8n","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1166,654,46,20]}
+{"kind":"textbox","id":"sh/dkv6ds7a","slide":5,"text":"APPLICATION ARCHITECTURE","textPreview":"APPLICATION ARCHITECTURE","textChars":24,"textLines":1,"bbox":[68,102,460,20]}
+{"kind":"textbox","id":"sh/cjm54nqp","slide":5,"text":"A modular stack separates storefront, APIs, and data","textPreview":"A modular stack separates storefront, APIs, and data","textChars":52,"textLines":1,"bbox":[68,140,820,96]}
+{"kind":"textbox","id":"sh/ritobip4","slide":5,"text":"The project is structured so the visual experience can deploy independently while the transactional layer scales separately.","textPreview":"The project is structured so the visual experience can deploy independently while the transactional layer scales separately.","textChars":124,"textLines":1,"bbox":[68,250,720,62]}
+{"kind":"shape","id":"sh/qxkn2d8j","slide":5,"bbox":[68,354,312,130]}
+{"kind":"textbox","id":"sh/torm18r6","slide":5,"text":"React + Tailwind","textPreview":"React + Tailwind","textChars":16,"textLines":1,"bbox":[92,382,250,28]}
+{"kind":"textbox","id":"sh/8ni5s3ql","slide":5,"text":"Responsive storefront and client routing","textPreview":"Responsive storefront and client routing","textChars":40,"textLines":1,"bbox":[92,420,250,24]}
+{"kind":"shape","id":"sh/2lsnmdkb","slide":5,"bbox":[482,354,312,130]}
+{"kind":"textbox","id":"sh/3m14fi1w","slide":5,"text":"Express REST API","textPreview":"Express REST API","textChars":16,"textLines":1,"bbox":[506,382,250,28]}
+{"kind":"textbox","id":"sh/4na5on2h","slide":5,"text":"Products, specifications, reviews, orders","textPreview":"Products, specifications, reviews, orders","textChars":41,"textLines":1,"bbox":[506,420,260,24]}
+{"kind":"shape","id":"sh/pojmh8j2","slide":5,"bbox":[896,354,312,130]}
+{"kind":"textbox","id":"sh/qpcnqd0n","slide":5,"text":"MySQL","textPreview":"MySQL","textChars":5,"textLines":1,"bbox":[920,382,250,28]}
+{"kind":"textbox","id":"sh/bql4ji1s","slide":5,"text":"Normalized catalog and order records","textPreview":"Normalized catalog and order records","textChars":36,"textLines":1,"bbox":[920,420,250,24]}
+{"kind":"shape","id":"sh/cbu5snid","slide":5,"bbox":[380,418,102,2]}
+{"kind":"shape","id":"sh/dc3mlsjy","slide":5,"bbox":[794,418,102,2]}
+{"kind":"textbox","id":"sh/ydcnux0j","slide":5,"text":"The API uses validation, rate limiting, stock checks, and transactions to protect order creation.","textPreview":"The API uses validation, rate limiting, stock checks, and transactions to protect order creation.","textChars":97,"textLines":1,"bbox":[68,550,930,30]}
+{"kind":"notes","id":"nt/prtyl1","slide":5,"text":""}
+{"kind":"slide","id":"sl/0szdwi","slide":6,"title":"ECO · GAMING ELECTRONICS","textShapes":12}
+{"kind":"textbox","id":"sh/3y14nmdo","slide":6,"text":"ECO · GAMING ELECTRONICS","textPreview":"ECO · GAMING ELECTRONICS","textChars":24,"textLines":1,"bbox":[68,36,420,20]}
+{"kind":"shape","id":"sh/ozalgre9","slide":6,"bbox":[68,62,1144,1]}
+{"kind":"textbox","id":"sh/p0jmpwvu","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1166,654,46,20]}
+{"kind":"textbox","id":"sh/et83ahw7","slide":6,"text":"DEPLOYMENT PATH","textPreview":"DEPLOYMENT PATH","textChars":15,"textLines":1,"bbox":[68,102,460,20]}
+{"kind":"textbox","id":"sh/fu14jmds","slide":6,"text":"Vercel serves the storefront reliably","textPreview":"Vercel serves the storefront reliably","textChars":37,"textLines":1,"bbox":[68,140,820,96]}
+{"kind":"textbox","id":"sh/gvalc7ed","slide":6,"text":"The deployment configuration builds the Vite client, publishes the static output, and rewrites client routes to prevent direct-link 404s.","textPreview":"The deployment configuration builds the Vite client, publishes the static output, and rewrites client routes to prevent direct-link 404s.","textChars":137,"textLines":1,"bbox":[68,250,720,62]}
+{"kind":"shape","id":"sh/1wjmlcvi","slide":6,"bbox":[68,344,1144,180]}
+{"kind":"textbox","id":"sh/ypcnm1wb","slide":6,"text":"GitHub repository","textPreview":"GitHub repository","textChars":17,"textLines":1,"bbox":[104,382,260,25]}
+{"kind":"textbox","id":"sh/zql4v6dw","slide":6,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[376,382,70,28]}
+{"kind":"textbox","id":"sh/vi1gbit0","slide":6,"text":"Vercel build","textPreview":"Vercel build","textChars":12,"textLines":1,"bbox":[468,382,220,25]}
+{"kind":"textbox","id":"sh/ahsz2dcf","slide":6,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[700,382,70,28]}
+{"kind":"textbox","id":"sh/xk3ydsbq","slide":6,"text":"Live storefront","textPreview":"Live storefront","textChars":15,"textLines":1,"bbox":[790,382,280,25]}
+{"kind":"textbox","id":"sh/wjuh4nal","slide":6,"text":"Vite build + SPA route rewrite","textPreview":"Vite build + SPA route rewrite","textChars":30,"textLines":1,"bbox":[468,421,280,20]}
+{"kind":"textbox","id":"sh/j6lgf2tw","slide":6,"text":"For live payments and persisted orders: deploy the Node API and MySQL database separately, then connect Stripe.","textPreview":"For live payments and persisted orders: deploy the Node API and MySQL database separately, then connect Stripe.","textChars":111,"textLines":1,"bbox":[70,575,1050,30]}
+{"kind":"notes","id":"nt/0szdwi","slide":6,"text":""}
+{"kind":"slide","id":"sl/gnrc0k","slide":7,"title":"ECO · GAMING ELECTRONICS","textShapes":15}
+{"kind":"textbox","id":"sh/na5wvipc","slide":7,"text":"ECO · GAMING ELECTRONICS","textPreview":"ECO · GAMING ELECTRONICS","textChars":24,"textLines":1,"bbox":[68,36,420,20]}
+{"kind":"shape","id":"sh/8bedo3qx","slide":7,"bbox":[68,62,1144,1]}
+{"kind":"textbox","id":"sh/9cnex87i","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1166,654,46,20]}
+{"kind":"textbox","id":"sh/ylcvit8v","slide":7,"text":"NEXT MILESTONE","textPreview":"NEXT MILESTONE","textChars":14,"textLines":1,"bbox":[68,102,460,20]}
+{"kind":"textbox","id":"sh/zmlcrypg","slide":7,"text":"Turn the polished demo into a production store","textPreview":"Turn the polished demo into a production store","textChars":46,"textLines":1,"bbox":[68,140,820,96]}
+{"kind":"textbox","id":"sh/0nedk3q1","slide":7,"text":"The customer experience is ready to present; the next release connects real inventory, order persistence, and payments.","textPreview":"The customer experience is ready to present; the next release connects real inventory, order persistence, and payments.","textChars":119,"textLines":1,"bbox":[68,250,720,62]}
+{"kind":"textbox","id":"sh/l8nut876","slide":7,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[74,335,42,28]}
+{"kind":"textbox","id":"sh/qhcvet8j","slide":7,"text":"Deploy the storefront","textPreview":"Deploy the storefront","textChars":21,"textLines":1,"bbox":[140,335,260,25]}
+{"kind":"textbox","id":"sh/bilcnep4","slide":7,"text":"Publish the Vite build through Vercel.","textPreview":"Publish the Vite build through Vercel.","textChars":38,"textLines":1,"bbox":[430,337,620,24]}
+{"kind":"shape","id":"sh/repsnqxc","slide":7,"bbox":[68,388,1144,1]}
+{"kind":"textbox","id":"sh/6dgrulgr","slide":7,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[74,417,42,28]}
+{"kind":"textbox","id":"sh/tg7ap0fi","slide":7,"text":"Connect API + MySQL","textPreview":"Connect API + MySQL","textChars":19,"textLines":1,"bbox":[140,417,260,25]}
+{"kind":"textbox","id":"sh/sfy9wvyx","slide":7,"text":"Set secure environment variables and import the schema.","textPreview":"Set secure environment variables and import the schema.","textChars":55,"textLines":1,"bbox":[430,419,620,24]}
+{"kind":"shape","id":"sh/fipsrqxo","slide":7,"bbox":[68,470,1144,1]}
+{"kind":"textbox","id":"sh/ehgry5g3","slide":7,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[74,499,42,28]}
+{"kind":"textbox","id":"sh/1krat0fe","slide":7,"text":"Activate Stripe","textPreview":"Activate Stripe","textChars":15,"textLines":1,"bbox":[140,499,260,25]}
+{"kind":"textbox","id":"sh/gji90vyt","slide":7,"text":"Replace demo card fields with Stripe Payment Element.","textPreview":"Replace demo card fields with Stripe Payment Element.","textChars":53,"textLines":1,"bbox":[430,501,620,24]}
+{"kind":"shape","id":"sh/vm58f6x4","slide":7,"bbox":[68,552,1144,1]}
+{"kind":"textbox","id":"sh/ulwrm1gj","slide":7,"text":"ECO//  Ready for the next release.","textPreview":"ECO//  Ready for the next release.","textChars":34,"textLines":1,"bbox":[68,626,550,34]}
+{"kind":"notes","id":"nt/gnrc0k","slide":7,"text":""}
